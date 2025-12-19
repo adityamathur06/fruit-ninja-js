@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="title.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Fruit Ninja
+        </title>
+    </head>
+
+<body>
+
+    <script>
+        const bgm = new Audio("assets/01. Welcome, Fruit Ninja.mp3");
+        bgm.autoplay = true;
+        bgm.muted = true; // Start muted to bypass autoplay restrictions
+
+        bgm.addEventListener('canplaythrough', () => {
+            bgm.muted = false; // Unmute after the audio is ready to play
+            bgm.play().catch((error) => {
+                console.log("Autoplay was prevented. User interaction is required to play the audio.");
+                document.addEventListener('click', playBGMOnce);
+                document.addEventListener('touchstart', playBGMOnce);
+            });
+        });
+
+        function playBGMOnce() {
+            bgm.play().then(() => {
+                document.removeEventListener('click', playBGMOnce);
+                document.removeEventListener('touchstart', playBGMOnce);
+            });
+        }
+    </script>
+
+    <script src="main.js"></script>
+    <button class="button1" onclick="ToLoginScreen()">Play</button>
+</body>
+
+</html>

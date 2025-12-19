@@ -1,0 +1,72 @@
+body {
+    background-image: url("assets/game_over_background.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 600px;
+    
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 81%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #45a049;
+}
+
+.button2 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 81%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #45a049;
+}
+
+.para1 {
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-size: 25px;
+}
+
+.para2 {
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-size: 25px;
+}
+
+.para3 {
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    font-size: 25px;
+}

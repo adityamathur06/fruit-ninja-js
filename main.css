@@ -1,0 +1,32 @@
+body {
+    background-image: url("assets/mainbg1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    cursor: url('assets/Knife_resized.png'), auto;
+}
+
+#gameCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.score, .timer {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+}
+
+.score {
+    top: 10px;
+    left: 10px;
+}
+
+.timer {
+    top: 10px;
+    right: 10px;
+}
