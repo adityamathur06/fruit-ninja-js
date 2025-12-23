@@ -19,7 +19,7 @@ function ToLoginScreen() {
 }
 
 function ToTitleScreen() {
-    window.location.href = "title.html";
+    window.location.href = "index.html";
 }
 
 function ToMainScreen() {

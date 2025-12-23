@@ -13,7 +13,7 @@ GAME RULES:
 -----------------
 HOW TO PLAY:
 -----------------
-1. Open the `title.html` file in your browser to start the game.
+1. Open the `index.html` file in your browser to start the game.
 2. Click on the "Play" button on the title screen.
 3. You will be redirected to a Login page where you have to login using your account (if you don't have account, then create one by clicking on "Sign Up").
 4. Now you will be redirected to the main screen where you can play the game.
@@ -24,7 +24,7 @@ HOW TO PLAY:
 -----------------
 FILES INCLUDED:
 -----------------
-1. `title.html` - The starting page of the game with the "Play" button.
+1. `index.html` - The starting page of the game with the "Play" button.
 2. `main.html` - The gameplay page where you slice fruits and avoid bombs.
 3. `game_over.html` - The game over screen displaying your score and options to restart.
 4. `main.js` - The JavaScript file that handles the game logic.
