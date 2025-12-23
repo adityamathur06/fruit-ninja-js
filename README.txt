@@ -1,14 +1,13 @@
-Fruit Ninja Game (2D) - Created by Aditya Mathur (Admission No. 24JE0077)
+# Fruit Ninja Browser Game
 
-Welcome to Fruit Ninja! This is a fun and interactive game where you slice fruits while avoiding bombs. Follow the instructions below to get started and enjoy the game.
+A Fruit Ninja–style browser game built using HTML, CSS, and vanilla JavaScript.
 
------------------
-GAME RULES:
------------------
-1. Slice as many fruits as possible by moving your mouse over them while holding down the left mouse button. Each successful slice increases your score.
-2. Avoid slicing bombs! Slicing a bomb will end the game.
-3. If you miss slicing 3 fruits, the game will end.
-4. Try to score as high as possible before the game ends.
+## Features
+- Fruit slicing with mouse
+- Bombs cause instant game over
+- Game ends after missing 3 fruits
+- Timer-based gameplay
+- Firebase authentication
 
 -----------------
 HOW TO PLAY:
@@ -45,3 +44,13 @@ NOTES:
 ABOUT THE DEVELOPER:
 -----------------
 This game was created by Aditya Mathur, Admission No. 24JE0077.
+## Tech Stack
+- HTML5 Canvas
+- JavaScript
+- CSS
+- Firebase
+
+## Future Improvements
+- Leaderboards
+- Difficulty scaling
+- Mobile support
